@@ -8,6 +8,11 @@ body{
 }
 h1{
     font-size: 50px;
+    padding-left: 2px;
+    margin-left: 5%;
+}
+h2{
+    font-size: 30px;
 }
 .orange-color{
     color: rgb(233, 90, 8);
@@ -15,7 +20,7 @@ h1{
 .green-color{
     color: green;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -27,6 +32,7 @@ section{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    box-shadow: yellowgreen;
 }
 .half-width img{
     width: 80%;
@@ -38,5 +44,17 @@ section{
     font-weight: 400;
     padding: 10px 40px;
     border-radius: 5px;
-
+}
+.experience-area{
+    width: 80%;
+    padding-left: 2%;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey;
 }
